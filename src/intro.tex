@@ -1,0 +1,21 @@
+  
+  Le Génie Logiciel (GL) est un monde visant à la production de logiciels, reposant sur un développement standardisé, automatisé et géré dans le but de réduire les coûts de production, permettant aux créateurs de logiciels de maîtriser leurs produits dans toutes leurs composantes~: fonctionnalités, fiabilité, qualité, maintenabilité et réutilisé \cite{dony1989langages}. On trouvera une définition du GL dans \cite{Boehm:1976:SE:1311958.1312684}; une autre définition \cite{krakowiak:1986}~: 
+ 
+   \begin{quote}
+      \emph{ ... ensemble des méthodes, techniques, et outils nécessaires à la
+production de logiciel de qualité industrielle, pour l'ensemble du cycle
+de vie d'un produit... Il s'agit en fait de passer à terme d'une technique
+basée sur la réparation, ... à une technique fondée sur la conception sûre
+et la garantie a priori de la qualité.} 
+  \end{quote}
+
+  Mettant en avant les problématiques de modularité (décomposer un programme en module -- fonctions et/ou méthodes et/ou sous-programmes -- afin de réaliser un développement indépendant et de répartir la complexité du programme) et de réutilisa\-bilité (réutiliser tout ou partie d'un logiciel -- spécification et/ou conception et/ou programme -- pour en faire un autre). Le monde objet est une partie importante du GL, permettant de répondre à ces problématiques, mais n'est pas la seule composante.  En effet le monde composant permet lui aussi de répondre à ces problématiques.\\\par
+  
+  Dans ce contexte global nous nous intéressons donc plus spécifiquement aux architectures logicielles à base de composants.
+  Le concept de composant a été introduit historiquement par \cite{Il68}, donnant depuis de multiples recherches, pouvant être regroupées en trois approches : frameworks, générative et langages orientés composants (LOC), s'unifiant autour d'une idée centrale, qui voit le composant comme une entité boîte noire, communiquant avec le monde extérieur au moyen d'interfaces (requises ou fournies). \\\par
+  
+  L'approche des LOC proposent la création et la manipulation de composants au sein d'un seul et même langage de programmation, qui se divisent en deux catégories. Une première dite <<mixte>>, évoluant dans un monde où la notion d'objet et de composant cohabitent, c'est-à-dire où les composants s'échangent des données au travers d'objets. La deuxième dite <<pure>> où seule la notion de composant existe (cf. annexe \ref{ann:compoexemple}), s'échangeant des données par connexion à d'autres composants. \\\par
+  
+  Afin d’empêcher toutes ambiguïtés de la spécification d'un langage de programmation défini dans le langage naturel, on peut définir formellement la sémantique de ces langages. Cela permet de caractériser mathématiquement les calculs décrits par un programme et les résultats qu'il produit. Les programmes deviennent des objets mathématiques qui doivent s'évaluer selon un certain nombre de règles définies formellement par la sémantique du langage.\\\par
+  
+  La problématique du stage se place dans ce contexte spécifique des langages orientés pur composants, dans le cadre particulier du langage Compo, afin d'en définir la séman\-ti\-que formelle et d'en expliciter en particulier le mode de passage de paramètres dans un monde <<tout composant>>. \\\par

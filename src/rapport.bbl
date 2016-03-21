@@ -1,0 +1,160 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{BCL{\etalchar{+}}06}
+
+\bibitem[AAA06]{abi2006javad}
+Marwan Abi-Antoun and Jonathan Aldrich.
+\newblock Javad: Bringing ownership domains to mainstream java.
+\newblock 2006.
+
+\bibitem[AC96]{Abadi:1996:TO:547964}
+Martin Abadi and Luca Cardelli.
+\newblock {\em A Theory of Objects}.
+\newblock Springer-Verlag New York, Inc., Secaucus, NJ, USA, 1st edition, 1996.
+
+\bibitem[ACN02]{aldrich2002archjava}
+Jonathan Aldrich, Craig Chambers, and David Notkin.
+\newblock Archjava: connecting software architecture to implementation.
+\newblock In {\em Software Engineering, 2002. ICSE 2002. Proceedings of the
+  24rd International Conference on}, pages 187--197. IEEE, 2002.
+
+\bibitem[ADDT]{arnaudhandles}
+Jean-Baptiste Arnaud, St{\'e}phane Ducasse, Marcus Denker, and Camille Teruel.
+\newblock Handles: Behavior-propagating first class references for
+  dynamically-typed languages.
+
+\bibitem[ASCN03]{aldrich2003language}
+Jonathan Aldrich, Vibha Sazawal, Craig Chambers, and David Notkin.
+\newblock Language support for connector abstractions.
+\newblock In {\em ECOOP 2003--Object-Oriented Programming}, pages 74--102.
+  Springer, 2003.
+
+\bibitem[BCL{\etalchar{+}}06]{bruneton2006fractal}
+Eric Bruneton, Thierry Coupaye, Matthieu Leclercq, Vivien Qu{\'e}ma, and
+  Jean-Bernard Stefani.
+\newblock The fractal component model and its support in java.
+\newblock {\em Software: Practice and Experience}, 36(11-12):1257--1284, 2006.
+
+\bibitem[Boe76]{Boehm:1976:SE:1311958.1312684}
+B.~W. Boehm.
+\newblock Software engineering.
+\newblock {\em IEEE Trans. Comput.}, 25(12):1226--1241, December 1976.
+
+\bibitem[CPN98]{clarke1998ownership}
+David~G Clarke, John~M Potter, and James Noble.
+\newblock Ownership types for flexible alias protection.
+\newblock In {\em ACM SIGPLAN Notices}, volume~33, pages 48--64. ACM, 1998.
+
+\bibitem[Don89]{dony1989langages}
+Christophe Dony.
+\newblock {\em Langages a objets et genie logiciel, application a la gestion
+  des exceptions et a l'environnementde mise au point}.
+\newblock PhD thesis, Paris 6, 1989.
+
+\bibitem[Fab07]{fabresse2007decoupage}
+Luc Fabresse.
+\newblock {\em Du d{\'e}coupage {\`a} l'assemblage non anticip{\'e} de
+  composants: Conception et mise en oeuvre du langage {\`a} composants Scl}.
+\newblock PhD thesis, Universit{\'e} Montpellier II-Sciences et Techniques du
+  Languedoc, 2007.
+
+\bibitem[GJSB05]{Gosling:2005:JLS:1036643}
+James Gosling, Bill Joy, Guy Steele, and Gilad Bracha.
+\newblock {\em Java(TM) Language Specification, The (3rd Edition) (Java
+  (Addison-Wesley))}.
+\newblock Addison-Wesley Professional, 2005.
+
+\bibitem[Hor84]{Horowitz:1984:FPL:27635}
+Ellis Horowitz.
+\newblock {\em Fundamentals of Programming Languages (2Nd Ed.)}.
+\newblock Computer Science Press, Inc., New York, NY, USA, 1984.
+
+\bibitem[ICG{\etalchar{+}}04]{IversDocumentingComponent2004}
+James Ivers, Paul Clements, David Garlan, Robert Nord, Bradley Schmerl, and
+  Oviedo Silva.
+\newblock Documenting component and connector views with uml 2.0.
+\newblock Technical Report CMU/SEI-2004-TR-008, Software Engineering Institute,
+  Carnegie Mellon University, Pittsburgh, PA, 2004.
+
+\bibitem[Kra86]{krakowiak:1986}
+S~Krakowiak.
+\newblock Enseignement du génie logiciel : expériences et perspectives.
+\newblock pages 15--31, May 1986.
+
+\bibitem[Kru]{kruchten1998modeling}
+Philippe Kruchten.
+\newblock Modeling component systems with the unified modeling language.
+
+\bibitem[McI68]{Il68}
+M.~D. McIlroy.
+\newblock Mass-produced software components.
+\newblock {\em Proc. NATO Conf. on Software Engineering, Garmisch, Germany},
+  1968.
+
+\bibitem[Neb]{opac-b1077467}
+Jean-Louis Nebut.
+\newblock {\em Ada pour l'écriture de composants logiciels : projet de norme
+  Ada 9X}.
+\newblock Collection Informatique. Ed. Technip, 1994 (05-Gap, Paris.
+
+\bibitem[PC98]{pryce1998component}
+Nat Pryce and Steve Crane.
+\newblock Component interaction in distributed systems.
+\newblock In {\em Configurable Distributed Systems, 1998. Proceedings. Fourth
+  International Conference on}, pages 71--78. IEEE, 1998.
+
+\bibitem[PQB01]{peschanski2001typeful}
+Frédéric Peschanski, Christian Queinnec, and Jean-Pierre Briot.
+\newblock A typeful composition model for dynamic software architectures, 2001.
+
+\bibitem[SDT14]{Spacek:2014:CMA:2602458.2602476}
+Petr Spacek, Christophe Dony, and Chouki Tibermacine.
+\newblock A component-based meta-level architecture and prototypical
+  implementation of a reflective component-based programming and modeling
+  language.
+\newblock In {\em Proceedings of the 17th International ACM Sigsoft Symposium
+  on Component-based Software Engineering}, CBSE '14, pages 13--22, New York,
+  NY, USA, 2014. ACM.
+
+\bibitem[Sit72]{sites1972algol}
+Richard~L Sites.
+\newblock Algol w reference manual.
+\newblock 1972.
+
+\bibitem[Spea]{specificationuml}
+OMG~Adopted Specification.
+\newblock Uml 2.0 superstructure specification.
+
+\bibitem[Speb]{specificationejb}
+Sun~Microsystems Specification.
+\newblock Ejb 3.1 core contracts and requirements.
+
+\bibitem[Str00]{Stroustrup:2000:CPL:518791}
+Bjarne Stroustrup.
+\newblock {\em The C++ Programming Language}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 3rd
+  edition, 2000.
+
+\bibitem[Szy99]{szyperski1999components}
+Clemens Szyperski.
+\newblock Components vs. objects vs. component objects.
+\newblock In {\em Proceedings of OOP}, volume 1999, 1999.
+
+\bibitem[Szy02]{Szyperski:2002:CSB:515228}
+Clemens Szyperski.
+\newblock {\em Component Software: Beyond Object-Oriented Programming}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 2nd
+  edition, 2002.
+
+\bibitem[TDD12]{Rel-Exec3}
+Pierre-Nicolas Tollitte, David Delahaye, and Catherine Dubois.
+\newblock {Producing Certified Functional Code from Inductive Specifications}.
+\newblock In Chris Hawblitzel and Dale Miller, editors, {\em Certified Programs
+  and Proofs (CPP)}, volume 7679 of {\em Lecture Notes in Computer Science
+  (LNCS)}, pages 76--91, Kyoto (Japan), December 2012. Springer.
+
+\bibitem[Win93]{Winskel:1993:FSP:151145}
+Glynn Winskel.
+\newblock {\em The Formal Semantics of Programming Languages: An Introduction}.
+\newblock MIT Press, Cambridge, MA, USA, 1993.
+
+\end{thebibliography}

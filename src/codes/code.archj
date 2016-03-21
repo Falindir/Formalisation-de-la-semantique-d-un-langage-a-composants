@@ -1,0 +1,59 @@
+package jimmy.counter;
+
+public component class Printer {
+  public port out {
+    provides void print(String txt);
+  }
+
+  void print(String txt) {
+      System.out.println("Print : " + txt);
+  }
+}
+
+public component class Counter {
+
+  private int val = 0;
+
+  public port out {
+    provides void increment();
+    provides void show();
+  }
+
+  public port in {
+    requires void print(String txt);
+  }
+
+  void increment() {
+    val = val + 1;
+  }
+
+  void show() {
+    in.print(val) // appel de la methode print via le port in
+  }
+}
+
+public component class PrintableCounter {
+
+  private final Counter counter = new Counter();
+  private final Printer printer = new Printer();
+
+  public port out {}
+
+  // delegation sur le port out du Counter
+  glue out, counter.out; 
+
+  // connection entre un Counter et un Printer
+  connect counter.in, printer.out; 
+
+  public void run() {
+    out.increment();
+    out.increment();
+    out.increment();
+    out.increment();
+    out.show(); 
+  }
+
+  public static void main(String args[]) {
+    new PrintableCounter().run();
+  }
+}

@@ -1,0 +1,71 @@
+Descriptor Printer extends Component
+{
+  provides {
+    default : {
+      print(txt);
+    }
+  }
+
+  service print(txt) {
+	   Transcript.crShow(txt);
+	}
+}
+
+Descriptor Counter extends Component
+{
+  provides {
+    default: {
+      increment();
+      show()
+    };
+  }
+
+  internally requires {
+    val : Integer;
+  }
+
+  requires {
+    printer : { print(txt); };
+  }
+
+  architecture {
+		connect val@self to 0;
+  }
+
+  service increment() {
+		| t |
+		t := val + 1;
+		connect val to t;
+  }
+
+  service show() {
+    printer.print(val.asString());
+  }
+}
+
+Descriptor PrintableCounter extends Component
+{
+  provides {
+    default: {
+      main();
+    }
+  }
+
+  internally requires {
+    c : Counter;
+		p : Printer;
+  }
+
+  architecture {
+    connect c to default@(Counter.new());
+		connect p to default@(Printer.new());
+		connect printer@c to default@p;
+  }
+
+	service main(){
+		c.incrementer();
+		c.incrementer();
+		c.incrementer();
+		c.show();
+	}
+}

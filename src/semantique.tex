@@ -1,0 +1,40 @@
+
+  \subsection{Présentation}
+  
+    La sémantique d'un langage de programmation permet de définir le comportement d'un programme écrit dans ce langage, à la différence de la syntaxe d'un langage de programmation qui permet de décrire la représentation d'un programme dans ce langage. Ces deux notions sont complémentaires mais la frontière entre la sémantique et la syntaxe n'a pas toujours été claire (notamment dans les années 70). Cependant les travaux de C. Strachey et D. Scott ont été fondateurs pour la séparation de ces deux domaines. On peut citer notamment C. Strachey qui disait :
+  
+  \begin{quote}
+      \emph{La sémantique est là pour ce que nous voulons dire et la syntaxe
+pour comment nous avons à le dire. } C. Strachey
+  \end{quote}
+      
+  De manière générale, les concepteurs de langage de programmation définissent la sémantique de leur langage de manière informelle, au moyen de blocs de texte, écrits en langage naturel, ce qui laisse la place à l'ambiguïté, lors de l'interprétation d'un comportement décrit dans cette sémantique informelle. Pour éviter toute ambiguïté, les sémantiques formelles reposent sur l'utilisation des mathématiques afin d'exprimer rigoureusement le comportement des programmes.\\\par
+        
+        Les motivations derrière la formalisation de la sémantique d'un langage sont nombreuses. Cela permet de visualiser tout comportement possible à l'exécution (même les cas d'erreurs), de lever toute ambiguïté pour un utilisateur du langage (car décrit formellement), de démontrer différentes sémantiques pour un même langage, l'équivalence de programmes (syntaxiquement différents), la validation de transformations de programme, des propriétés relatives au typage (comme la correction du typage par rapport à la sémantique ou la préservation du typage lors de l'exécution). Cela permet aussi le développement d'outils certifiés (interprètes, compilateurs, analyseurs statiques, etc.).
+      
+      \subsection {Les grandes approches de la sémantique formelle}
+      
+      Dans la littérature on remarque trois grandes approches de la sémantique formelle \cite{Winskel:1993:FSP:151145}~, décrites aussi par Xavier Leroy \footnote{http://cristal.inria.fr/$\sim$xleroy/mpri/prog/cours.pdf}.
+      
+      \begin{enumerate}
+      
+        \item La sémantique axiomatique, reposant sur la logique de Floyd-Hoare, permet de décrire le comportement des programmes impératifs annotés par des assertions (formule logique). Elle permet d'assurer la validité des valeurs des variables avant et après l'exécution, si les instructions terminent. 
+        
+        \item La sémantique dénotationnelle est la première sémantique à avoir été introduit (début 70) par C. Strachey et D. Scott. Elle met en relation une instruction du programme avec sa dénotation. La dénotation est généralement une fonction, au sens mathématique du terme, c'est-à-dire associe des entrées à des sorties (plus généralement un domaine à un autre -- théorie des domaines). Permettant de décrire de façon précise la sémantique du langage mais de façon la plus abstraite possible, elle reste toutefois difficile à manipuler et à implanter. 
+        
+        \item La sémantique opérationnelle met en relation un programme avec son résultat. Cette relation peut être de deux natures : <<à grands pas>> (dite <<à la Kahn>>) ou <<à petits pas>> (dite <<à la Plotkin>>). Cette sémantique opérationnelle est donnée par un ensemble de règles d'inférence, reposant sur des structures inductives (théorie des types). 
+        La sémantique à grands pas met directement en relation un programme avec son résultat, ne montrant pas les étapes intermédiaires de calculs. Elle est sans doute la sémantique la plus proche d'une implantation. En revanche, elle parle plus difficilement des programmes qui ne terminent pas. Cet type de programmes peut être caractérisé plus facilement avec une sémantique à petits pas, qui décrit toutes les étapes intermédiaires de calcul entre le programme et le résultat final. Toutefois, les sémantiques à petits pas restent plus loin d'une implantation et sont moins efficaces en pratique.
+      
+      \end{enumerate} 
+         
+    \subsection{Mécanisation des sémantiques formelles}
+      
+        Pour nous aider dans la formalisation des sémantiques, différents outils d'aide à la preuve existent. Par exemple, Coq \footnote{https://coq.inria.fr/} est un outil développé au sein de l’équipe INRIA $\pi$$r^{2}$ et fondé sur la théorie des types (calcul des constructions inductives). Coq est particulièrement approprié pour formaliser les sémantiques car il propose un très bon support pour les types inductifs. En effet, les types inductifs sont un moyen idiomatique de formaliser en Coq, et permettent en particulier de traduire presque directement les sémantiques opérationnelles exprimées sous la forme de règles d'inférence. Par ailleurs, il existe également des outils en Coq \cite{Rel-Exec3} permettant d'extraire des interprètes à partir de la formalisation de sémantiques exprimées au moyen de types inductifs, ainsi que les preuves de correction correspondantes (c'est-à-dire que les interprètes extraits sont conformes aux sémantiques formalisées). Il existe également d'autres outils d'aide à la preuve qui possèdent un bon support pour l'induction et qui sont aussi appropriés pour la formalisation de sémantiques. On pourra citer en particulier Lego~\footnote{http://www.dcs.ed.ac.uk/home/lego/} ou Isabell~\footnote{https://isabelle.in.tum.de/}.
+        
+  \subsection{La sémantique formelle des langages objets et des langages à composants}
+  
+       Il existe assez peu de travaux sur la formalisation de la sémantique des langages à objets et la référence en la matière sont les travaux de M.~Abadi et L.~Cardelli \cite{Abadi:1996:TO:547964}, qui ont proposé une nouvelle approche dans la compréhension des langages objets, en présentant des calculs d'objets et développant une théorie  autour d'eux, en couvrant leurs sémantiques et leurs règles de typages.
+      
+      Cependant il n'existe pas, à notre connaissance, de travaux autour de la formalisation de la sémantique des langages à composants, sauf quelques rares exceptions comme~\cite{peschanski2001typeful}.
+        
+      

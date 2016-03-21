@@ -1,0 +1,40 @@
+    
+    \label{sec:compo} 
+
+    Développé au sein de l'équipe MAREL du LIRMM, le projet Compo\footnote{http://www.lirmm.fr/compo/} est un travail de collaboration et de réflexion autour du développement d'un langages orientés pur composants, promu par son créateur C.Dony avec l'aide de C.Tibermacine et D.Delahaye, ainsi que des travaux de recherche réaliser par P.Spacek \cite{Spacek:2014:CMA:2602458.2602476} et L.Fabresse \cite{fabresse2007decoupage}.
+    
+    \subsection{Compo -- un langage tout composant}
+    
+L'idée du projet Compo est d'unifier les concepts des précédentes approches à composants autour d'un langage de programmation. Il récupére des ADLs une description explicite des architectures, ainsi que l'idée de pouvoir définir explicitement le requis d'un composant. Il reprend le concept des LOC de mettre au même niveau une description de l'architecture et l'implémentation des composants. De la même manière que l'approche de UML, il permet une visualisation graphique de l'architecture interne d'un composant. Avec la même philosophie que Smalltalk pour un monde <<tout objet>>, Compo prône un monde <<tout composant>>. Dans sa deuxième version de développement, Compo a intégré la réflexivité au sein de son méta-modèle, réalisée par les travaux de P.Spacek \cite{Spacek:2014:CMA:2602458.2602476}, décrivant les descripteurs, ports et services comme étant des composants. 
+  
+      \subsubsection{Composants et descripteurs}
+    
+    Un composants Compo est décrit par son descripteur, dont il est instance. Un descripteur permet de définir la structure et le comportement de chacune de ses instances en décrivant les ports et l'architecture et en définissant les services. 
+    
+      \subsubsection{Des ports comme seul moyen de communication entre composants}
+      
+     Un port regroupe un ensemble d'interface (fournies ou requises). Comme l'approche de Fractal, les ports de Compo sont unidirectionnel, c'est-à-dire qu'un port est soit un ensemble d'interfaces fournies, on parle alors de port fourni (\texttt{provides}), soit un ensemble d'interfaces requises, on parle alors de port requis (\texttt{requires}). Contrairement aux ports bidirectionnels, les ports permettent un découplage du requis et du besoin entre composants. En effet les approches comme Archjava ou en UML, les ports sont un ensemble d'interfaces fournies et/ou requises, laissant plus de souplesse dans le développement mais introduit une perte de sécurité au niveau l'architecture. En effet, un composant fournissant un service n'a pas forcement besoin d'avoir accès au service du composant auquel il se connecte. Il possède aussi une visibilité, interne ou externe. Par défaut un port est externe, visible depuis l'environnement extérieur. Un port peut devenir interne, visible uniquement dans l'environnement interne du composant, grâce à l'ajout de la primitive \texttt{internally}.
+    
+    \subsubsection{Les services}
+    
+    Un service est représenté par un nom et un ensemble de paramètres. Il représente une fonctionnalité que peut fournir chaque composant qui est instance du descripteur qui le définit. L'invocation du service d'un composant se réalise au travers d'un port requis du composant. Il peut aussi être défini dans des descripteurs de composants composite. Ainsi un composant composite encapsule un assemblage de composants et peut y rajouter des comportements grâce à des services. Ce qui n'est pas possible dans les approches comme Fractal par exemple, où la définition de service ne peut se faire que par des composants primitif.
+    
+    \subsubsection{Une description d'architecture explicite}
+      
+      Cette description d'architecture est contenue dans un bloc d'instructions, identifié par la primitive \texttt{architecture}. Elle permet de représenter les connexions entre les composants internes de notre composant avec l’instruction \texttt{connect} et de permettre la délégation de ports, entre un port externe fourni (resp. requis) de notre composant à un port externe fourni (resp. requis) d'un composant interne, avec l'instruction \texttt{delegate}.
+      
+    \subsubsection{Des composants composites}
+      
+    Compo intègre lui aussi la notion de composant composite, comme pouvaient le faire certaines des autres approches. Cependant, contrairement à ArchJava qui encapsule les composants internes de la même façon qu'une classe peut le faire avec ses attributs, Compo stocke ses composants internes à l'aide de ports internes requis. Une instance d'un composant interne est liée à ce port requis interne par son port fournis externe.
+  
+    \subsection{Compo -- une architecture composant d'un compteur}
+    
+    L'annexe \ref{ann:compoexemple} permet de décrire une architecture de composant qui simule le comportement d'un compteur. Le premier composant est décrit par le descripteur \texttt{Printer}. Il décrit le service \texttt{print}, qui permet d'afficher une chaîne de caractères. Le deuxième composant est décrit par le descripteur \texttt{Counter} qui permet de simuler l'incrémentation d'un compteur au travers de son service \texttt{increment}. Cette même valeur est encapsulée dans notre composant par un composant \texttt{Integer}. Notre composant a aussi besoin d'être connecté à un autre composant lui fournissant le service \texttt{print}.Le dernier composant est décrit par le descripteur \texttt{PrintableCounter} qui décrit notre architecture de composants. Il encapsule nos deux composants et leurs connexions ligne 62. Le service $main$ qu'il fourni, aura comme comportement d'incrémenter le compteur et d'en afficher la valeur.  
+    
+      
+      
+      
+
+
+      
+      
