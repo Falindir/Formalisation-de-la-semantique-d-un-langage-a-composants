@@ -1,5 +1,5 @@
   
-  Le Génie Logiciel (GL) est une discipline de l'informatique visant à proposer des modèles, logiciels, méthodes et outils pour la production de logiciels, reposant sur un développement standardisé, automatisé et géré dans le but de réduire les coûts de production, permettant aux créateurs de logiciels de maîtriser leurs produits dans toutes leurs composantes~: fonctionnalités, fiabilité, qualité, maintenabilité et réutilisé \cite{dony1989langages}. On trouvera une définition du GL dans \cite{Boehm:1976:SE:1311958.1312684}; une autre définition de S.Krakowiak : 
+  Le Génie Logiciel (GL) est une discipline de l'informatique visant à proposer des modèles, logiciels, méthodes et outils pour la production de logiciels, reposant sur un développement standardisé, automatisé et géré dans le but de réduire les coûts de production, permettant aux créateurs de logiciels de maîtriser leurs produits dans toutes leurs composantes~: fonctionnalités, fiabilité, qualité, maintenabilité et réutilisé \cite{dony1989langages}. On trouvera une définition du GL dans \cite{Boehm:1976:SE:1311958.1312684}; une autre définition \cite{krakowiak:1986}~: 
  
    \begin{quote}
       \emph{ ... ensemble des méthodes, techniques, et outils nécessaires à la

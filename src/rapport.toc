@@ -1,43 +1,42 @@
 \select@language {french}
 \select@language {english}
 \select@language {french}
-\contentsline {chapter}{Table des mati{\`e}res}{iii}{section*.1}
+\contentsline {chapter}{Table des mati{\`e}res}{v}{section*.1}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\chapternumberline {2}\IeC {\'E}tat de l'art}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Le d\IeC {\'e}veloppement logiciel \IeC {\`a} base de composants}{3}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Pr\IeC {\'e}sentation de l'approche composant}{3}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Les principes de l'approche \IeC {\`a} composant}{4}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Les grandes approches du d\IeC {\'e}veloppement \IeC {\`a} base de composants}{5}{subsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.3.1}La famille des g\IeC {\'e}n\IeC {\'e}ratives}{5}{subsubsection.2.1.3.1}
+\contentsline {section}{\numberline {2.1}Le d\IeC {\'e}veloppement de logiciels \IeC {\`a} base de composants}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Pr\IeC {\'e}sentation de l'approche \IeC {\`a} composants}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Les principes de d\IeC {\'e}veloppement par composants}{4}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Les grandes familles du d\IeC {\'e}veloppement \IeC {\`a} base de composants}{5}{subsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3.1}Les approches des g\IeC {\'e}n\IeC {\'e}ratives}{5}{subsubsection.2.1.3.1}
 \contentsline {subsubsection}{\numberline {2.1.3.2}La famille des frameworks}{7}{subsubsection.2.1.3.2}
-\contentsline {subsubsection}{\numberline {2.1.3.3}La famille des langages orient\IeC {\'e}s composants}{8}{subsubsection.2.1.3.3}
-\contentsline {section}{\numberline {2.2}Les diff\IeC {\'e}rents m\IeC {\'e}canismes du passage d'arguments en programmation}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Terminologie}{9}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Passage par valeur}{9}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Passage par r\IeC {\'e}f\IeC {\'e}rence}{9}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Passage par valeur-r\IeC {\'e}sultat}{10}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Passage par nom}{10}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}ADA et ses trois nouveaux mode de passage}{10}{subsection.2.2.6}
-\contentsline {section}{\numberline {2.3}La s\IeC {\'e}mantique formelle des langages de programmation}{11}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Pr\IeC {\'e}sentation}{11}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Les grandes approches de la s\IeC {\'e}mantique formelle}{11}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}M\IeC {\'e}canisation des s\IeC {\'e}mantiques formelles}{12}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}La s\IeC {\'e}mantique formelle des langages objets et des langages \IeC {\`a} composants}{12}{subsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.1.3.3}La famille des langages \IeC {\`a} composants}{9}{subsubsection.2.1.3.3}
+\contentsline {section}{\numberline {2.2}Les diff\IeC {\'e}rents m\IeC {\'e}canismes du passage d'arguments en programmation}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Passage par valeur}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Passage par r\IeC {\'e}f\IeC {\'e}rence}{11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Passage par valeur-r\IeC {\'e}sultat}{12}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Passage par nom}{12}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}ADA et ses trois nouveaux mode de passage}{12}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}La s\IeC {\'e}mantique formelle des langages de programmation}{12}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Pr\IeC {\'e}sentation}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Les grandes approches de la s\IeC {\'e}mantique formelle}{13}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}M\IeC {\'e}canisation des s\IeC {\'e}mantiques formelles}{14}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}La s\IeC {\'e}mantique formelle des langages \IeC {\`a} objets et des langages \IeC {\`a} composants}{14}{subsection.2.3.4}
 \contentsline {chapter}{\chapternumberline {3}Probl\IeC {\'e}matique du stage de recherche}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Le langage orient\IeC {\'e} composant, Compo}{15}{section.3.1}
+\contentsline {section}{\numberline {3.1}Le langage \IeC {\`a} composants, Compo}{15}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Compo -- un langage tout composant}{15}{subsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.1.1}Composants et descripteurs}{15}{subsubsection.3.1.1.1}
 \contentsline {subsubsection}{\numberline {3.1.1.2}Des ports comme seul moyen de communication entre composants}{15}{subsubsection.3.1.1.2}
 \contentsline {subsubsection}{\numberline {3.1.1.3}Les services}{16}{subsubsection.3.1.1.3}
 \contentsline {subsubsection}{\numberline {3.1.1.4}Une description d'architecture explicite}{16}{subsubsection.3.1.1.4}
 \contentsline {subsubsection}{\numberline {3.1.1.5}Des composants composites}{16}{subsubsection.3.1.1.5}
-\contentsline {subsection}{\numberline {3.1.2}Compo -- une architecture composant d'un compteur}{16}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Compo -- une architecture \IeC {\`a} composants d'un compteur}{16}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}La probl\IeC {\`e}matique du passage des arguments dans les mod\IeC {\`e}les \IeC {\`a} composants}{17}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}La signification du passage en argument d'un composant}{17}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Les premi\IeC {\`e}res pistes du passage d'arguments}{18}{subsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Le passage par fourni}{18}{subsubsection.3.2.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2.2}Le passage par requis}{18}{subsubsection.3.2.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Comparaison avec les passages d'arguments classique}{18}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.2}Les premi\IeC {\`e}res pistes du passage d'arguments}{17}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Le passage par fourni}{17}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}Le passage par requis}{17}{subsubsection.3.2.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Comparaison avec les passages d'arguments classiques}{18}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Les potentialit\IeC {\'e}s d\IeC {\'e}coulant du passage par requis comme support au passage d'arguments}{19}{subsection.3.2.4}
 \contentsline {subsubsection}{\numberline {3.2.4.1}Un passage en lecture seule}{19}{subsubsection.3.2.4.1}
 \contentsline {subsubsection}{\numberline {3.2.4.2}Un passage r\IeC {\'e}vocable}{19}{subsubsection.3.2.4.2}
@@ -49,5 +48,5 @@
 \contentsline {subsection}{\numberline {3.3.1}\IeC {\'E}volution du noyau s\IeC {\'e}mantique existant et formalisation des nouveaux m\IeC {\'e}canismes}{21}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}M\IeC {\'e}canisation en Coq et g\IeC {\'e}n\IeC {\'e}ration d\IeC {\textquoteright }un interpr\IeC {\`e}te certifi\IeC {\'e}}{21}{subsection.3.3.2}
 \contentsline {chapter}{\chapternumberline {4}Conclusion}{23}{chapter.4}
-\contentsline {appendix}{\chapternumberline {A}Une architecture composant d'un compteur en Compo}{25}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}Une architecture \IeC {\`a} composants d'un compteur en Compo}{25}{appendix.A}
 \contentsline {chapter}{Bibliographie}{27}{section*.4}

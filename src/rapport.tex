@@ -32,10 +32,10 @@
 \date{\today} 
 %% version du rapport (Optionnel)
 \version{1}
-%% Résumé en francais
-%%\abstractfr{
-%%Ce stage de master.
-%%}
+ 
+\abstractfr{
+Le développement par composants est un paradigme important du Génie Logiciel. Il est une solution pour répondre aux problématiques de modularité et de réutilisabilité dans la production de logiciels. Dans la littérature, il existe un certain nombre d'architectures logicielles à base de composants, qui se regroupent en trois grandes familles : les frameworks, les approches génératives et les langages à composants. De plus, ne pas avoir d'ambiguïtés dans la spécification d'un langage est un problème récurrent pour tout concepteur de langage. Dans cette étude bibliographique, nous présentons un état de l’art des différentes familles à composants, les différents modes de passage de paramètres dans les langages, ainsi que l'ensemble des techniques permettant la définition formelle de la sémantique d'un langage. Dans le contexte de la famille des langages à composants, on se place dans le cadre particulier du langage Compo, développé au sein de l'équipe MAREL du LIRMM, afin de fournir une sémantique formelle et de compléter sa conception.
+}
 %% Résumé en anglais
 %%\abstracteng{
  %% This master thesis.
@@ -57,7 +57,7 @@
 \tableofcontents %% -> table des matières
 %\clearpage 
 %\listoffigures %% -> figures
-%\clearpage
+%\clearpageles langages à composants
 %\lstlistoflistings %% -> listing
 \mainmatter  %% -> numérotation numérique
 
@@ -90,9 +90,9 @@ escapeinside={\%*}{*)}          % if you want to add a comment within your code
   
 \chapter{État de l'art}
 
-La première section positionne le concept des langages de programmation par composants parmi les autres approches relevant de ce concept en GL. La deuxième section nous replace dans le contexte des langages de programmation et de leurs différentes techniques permettant le passage d'arguments. Enfin la dernière section nous place dans le contexte de la définition de la sémantique des langages de programmation, avec la mise en place d'un mécanisme de preuve. 
+La première section introduit le concept des langages de programmation par composants. La deuxième section nous replace dans le contexte des langages de programmation et de leurs différentes techniques permettant le passage d'arguments. Enfin la dernière section présente les techniques de définition de la sémantique des langages de programmation, avec la mise en place d'un mécanisme de preuve. 
 
-  \section{Le développement logiciel à base de composants}
+  \section{Le développement de logiciels à base de composants}
   
     \input{developpement_composant.tex}
 
@@ -106,7 +106,9 @@ La première section positionne le concept des langages de programmation par com
         
 \chapter{Problématique du stage de recherche} 
 
-  \section{Le langage orienté composant, Compo} 
+  \label{chap:problematique}
+
+  \section{Le langage à composants, Compo} 
   
     \input{compo.tex}
     
@@ -126,7 +128,7 @@ La première section positionne le concept des langages de programmation par com
   \clearpage
 	\phantomsection
 	
-  \chapter{Une architecture composant d'un compteur en Compo}
+  \chapter{Une architecture à composants d'un compteur en Compo}
     
     \label{ann:compoexemple}
   

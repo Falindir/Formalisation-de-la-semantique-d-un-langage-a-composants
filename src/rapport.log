@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.10)  21 MAR 2016 12:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.10)  25 MAR 2016 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1380,7 +1380,7 @@ e
 ))
 \c@lstlisting=\count294
 
-<logo-um-complet.png, id=148, 265.9536pt x 86.724pt>
+<logo-um-complet.png, id=144, 265.9536pt x 86.724pt>
 File: logo-um-complet.png Graphic file (type png)
  <use logo-um-complet.png>
 Package pdftex.def Info: logo-um-complet.png used on input line 56.
@@ -1390,11 +1390,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
  []
 
-[1
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo-um-complet.png>]
+ <./logo-um-complet.png>]
 [2
+
+] [3] [4
 
 ] (./rapport.toc
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 4.
@@ -1426,7 +1428,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3])
+) [5])
 
 Class memoir Warning: The material used in the headers is too large
 (14.45186pt) for the given head height (13.6pt), it is recommended to
@@ -1437,10 +1439,16 @@ either increase the head height or redesign the header
 Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
-[4] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+[6] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (./intro.tex
+Overfull \hbox (4.97586pt too wide) in paragraph at lines 2--3
+\OT1/lmr/m/n/10.95 lo-gi-ciels, m^^Sethodes et ou-tils pour la pro-duc-tion de 
+lo-gi-ciels, re-po-sant sur un d^^Seveloppement
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 12--12
 
  []
@@ -1455,43 +1463,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--17
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-
- []
-
 [1
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
-) [2] (./developpement_composant.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 21.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 21.
- [3
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+
+ []
+
+) [2] (./developpement_composant.tex [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 27.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 27.
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
  []
 
-<images/reuse.png, id=251, 528.97626pt x 357.335pt>
+<images/reuse.png, id=253, 528.97626pt x 357.335pt>
 File: images/reuse.png Graphic file (type png)
  <use images/reuse.png>
-Package pdftex.def Info: images/reuse.png used on input line 44.
+Package pdftex.def Info: images/reuse.png used on input line 43.
 (pdftex.def)             Requested size: 528.97496pt x 357.33412pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 
  []
 
@@ -1500,12 +1513,12 @@ Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
  []
 
@@ -1514,7 +1527,17 @@ Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
 [5 <./images/reuse.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 
  []
 
@@ -1523,12 +1546,12 @@ Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
@@ -1537,11 +1560,35 @@ Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 107
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+
+ []
+
+
+Overfull \vbox (0.85185pt too high) has occurred while \output is active []
+
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 133
 .
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1549,28 +1596,36 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
-[8]
-Overfull \hbox (2.85254pt too wide) in paragraph at lines 115--116
-\OT1/lmr/m/n/10.95 classe de com-po-sant peut h^^Seriter d'une classe Java << c
-las-sique >>. Ce-pen-dant les contraintes
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+
  []
 
-) (./arguments.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+
+ []
+
+)
+Overfull \vbox (0.85185pt too high) has occurred while \output is active []
+
+
+[10] (./arguments.tex
 
 Class memoir Warning: The material used in the headers is too large
 (28.05186pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 15.
+(in both cases you will find help in the memoir manual). on input line 19.
 
 
 Overfull \vbox (14.45186pt too high) has occurred while \output is active []
 
 
-[9]) (./semantique.tex
+[11]) (./semantique.tex
 Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
-[10]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
 
  []
@@ -1579,21 +1634,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
 Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
-[11])
+[13])
 Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
-[12]
+[14] (./compo.tex [15
+
+])
 Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
-[13] [14
-
-] (./compo.tex [15]) (./probleme_arguments.tex
-Overfull \vbox (0.85185pt too high) has occurred while \output is active []
-
-
-[16] <images/archiCompo.png, id=380, 820.06375pt x 492.84125pt>
+[16] (./probleme_arguments.tex
+<images/archiCompo.png, id=391, 820.06375pt x 492.84125pt>
 File: images/archiCompo.png Graphic file (type png)
 
 <use images/archiCompo.png>
@@ -1604,20 +1656,17 @@ Package pdftex.def Info: images/archiCompo.png used on input line 22.
 Class memoir Warning: The material used in the headers is too large
 (29.90372pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 32.
+(in both cases you will find help in the memoir manual). on input line 36.
 
 
 Overfull \vbox (16.30371pt too high) has occurred while \output is active []
 
 
-[17 <./images/archiCompo.png>]
-Underfull \vbox (badness 4805) has occurred while \output is active []
-
-
+[17]
 Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
-[18]
+[18 <./images/archiCompo.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 55--55
 
  []
@@ -1626,11 +1675,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--55
 Overfull \vbox (16.30371pt too high) has occurred while \output is active []
 
 
-[19]
+[19])
 Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
-[20]) (./semantique_compo.tex
+[20] (./semantique_compo.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--3
 
  []
@@ -1646,7 +1695,7 @@ Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 133.
+nput line 135.
  (./codes/code.compo
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 2.
 
@@ -1656,7 +1705,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 2.
  [25]) (./rapport.bbl
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+Overfull \vbox (14.45186pt too high) has occurred while \output is active []
 
 
 [26]
@@ -1668,20 +1717,20 @@ bibitemlist
 Class memoir Warning: The material used in the headers is too large
 (29.90372pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 138.
+(in both cases you will find help in the memoir manual). on input line 140.
 
 [29]
 \tf@toc=\write5
 \openout5 = `rapport.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (./rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: FCBD6DFADCD6563277944348A9423AAA;3377.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
+(rerunfilecheck)             Checksum: 81541D335E6264E925C5C72DBD8DDF31;3339.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  )
 (\end occurred inside a group at level 1)
 
@@ -1689,17 +1738,29 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
 ### bottom level
 (\end occurred when \iffalse on line 56 was incomplete) 
 Here is how much of TeX's memory you used:
- 19501 strings out of 493304
- 311330 string characters out of 6139871
- 489503 words of memory out of 5000000
+ 19513 strings out of 493304
+ 311793 string characters out of 6139871
+ 490865 words of memory out of 5000000
  22429 multiletter control sequences out of 15000+600000
  86831 words of font info for 63 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 48i,13n,40p,10384b,4634s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,12n,40p,10384b,4635s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): n
-ame{cite.Spacek\\penalty\040\\@M\040\040:2014\\penalty\040\\@M\040\040:CMA\\pen
-alty\040\\@M\040\040:2602458.2602476} has been referenced but does not exist, r
-eplaced by a fixed one
+ame{cite.DBLP\\penalty\040\\@M\040\040:conf/ecoop/AldrichSCN03} has been refere
+nced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.DBLP\\penalty\040\\@M\040\040:conf/oopsla/Abi-
+AntounA06} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.DBLP\\penalty\040\\@M\040\040:journals/scp/Arn
+audDDT15} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.DBLP\\penalty\040\\@M\040\040:conf/oopsla/Clar
+kePN98} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.Spacek\\penalty\040\\@M\040\040:2014\\penalty\
+040\\@M\040\040:CMA\\penalty\040\\@M\040\040:2602458.2602476} has been referenc
+ed but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.Abadi\\penalty\040\\@M\040\040:1996\\penalty\0
 40\\@M\040\040:TO\\penalty\040\\@M\040\040:547964} has been referenced but does
@@ -1709,24 +1770,28 @@ pdfTeX warning (dest): name{cite.Winskel\\penalty\040\\@M\040\040:1993\\penalty
 \040\\@M\040\040:FSP\\penalty\040\\@M\040\040:151145} has been referenced but d
 oes not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.Gosling\\penalty\040\\@M\040\040:2005\\penalty
-\040\\@M\040\040:JLS\\penalty\040\\@M\040\040:1036643} has been referenced but 
-does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{cite.DBLP\\penalty\040\\@M\040\040:books/aw/ArnoldG
+H00} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.Stroustrup\\penalty\040\\@M\040\040:2000\\pena
 lty\040\\@M\040\040:CPL\\penalty\040\\@M\040\040:518791} has been referenced bu
 t does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.Horowitz\\penalty\040\\@M\040\040:1984\\penalt
-y\040\\@M\040\040:FPL\\penalty\040\\@M\040\040:27635} has been referenced but d
-oes not exist, replaced by a fixed one
+pdfTeX warning (dest): name{cite.DBLP\\penalty\040\\@M\040\040:books/daglib/006
+9787} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.DBLP\\penalty\040\\@M\040\040:conf/icse/Aldric
+hCN02} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.DBLP\\penalty\040\\@M\040\040:journals/spe/Bru
+netonCLQS06} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.DBLP\\penalty\040\\@M\040\040:conf/cds/PryceC9
+8} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.Szyperski\\penalty\040\\@M\040\040:2002\\penal
 ty\040\\@M\040\040:CSB\\penalty\040\\@M\040\040:515228} has been referenced but
  does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.krakowiak\\penalty\040\\@M\040\040:1986} has b
-een referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.Boehm\\penalty\040\\@M\040\040:1976\\penalty\0
 40\\@M\040\040:SE\\penalty\040\\@M\040\040:1311958.1312684} has been referenced
@@ -1748,10 +1813,10 @@ fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12
 /type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmtt10.pfb>
-Output written on rapport.pdf (33 pages, 578018 bytes).
+Output written on rapport.pdf (35 pages, 591183 bytes).
 PDF statistics:
- 656 PDF objects out of 1000 (max. 8388607)
- 590 compressed objects within 6 object streams
- 209 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 679 PDF objects out of 1000 (max. 8388607)
+ 610 compressed objects within 7 object streams
+ 221 named destinations out of 1000 (max. 500000)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
 

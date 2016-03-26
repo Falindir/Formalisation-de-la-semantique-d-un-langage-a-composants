@@ -3,54 +3,48 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: rapport.aux
 The style file: alpha.bst
 Database file #1: reference.bib
-Warning--empty journal in abi2006javad
-Warning--empty journal in arnaudhandles
-Warning--empty year in arnaudhandles
-Warning--can't use both volume and number fields in clarke1998ownership
-Warning--empty booktitle in krakowiak:1986
 Warning--empty booktitle in kruchten1998modeling
-Warning--empty year in kruchten1998modeling
 Warning--empty year in opac-b1077467
 Warning--empty journal in sites1972algol
 You've used 28 entries,
             2543 wiz_defined-function locations,
-            732 strings with 9204 characters,
-and the built_in function-call counts, 10586 in all, are:
-= -- 1035
-> -- 478
-< -- 26
-+ -- 166
-- -- 159
-* -- 699
-:= -- 1728
-add.period$ -- 86
+            744 strings with 10180 characters,
+and the built_in function-call counts, 10795 in all, are:
+= -- 1058
+> -- 489
+< -- 23
++ -- 171
+- -- 163
+* -- 712
+:= -- 1758
+add.period$ -- 85
 call.type$ -- 28
-change.case$ -- 165
+change.case$ -- 166
 chr.to.int$ -- 27
-cite$ -- 37
-duplicate$ -- 470
-empty$ -- 794
-format.name$ -- 200
-if$ -- 2184
+cite$ -- 31
+duplicate$ -- 473
+empty$ -- 816
+format.name$ -- 203
+if$ -- 2230
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 29
-newline$ -- 139
+newline$ -- 141
 num.names$ -- 86
-pop$ -- 225
+pop$ -- 209
 preamble$ -- 1
-purify$ -- 199
+purify$ -- 200
 quote$ -- 0
-skip$ -- 366
+skip$ -- 381
 stack$ -- 0
-substring$ -- 443
-swap$ -- 85
-text.length$ -- 26
-text.prefix$ -- 15
+substring$ -- 496
+swap$ -- 88
+text.length$ -- 23
+text.prefix$ -- 14
 top$ -- 0
 type$ -- 196
-warning$ -- 9
-while$ -- 95
-width$ -- 32
-write$ -- 356
-(There were 9 warnings)
+warning$ -- 3
+while$ -- 100
+width$ -- 33
+write$ -- 360
+(There were 3 warnings)

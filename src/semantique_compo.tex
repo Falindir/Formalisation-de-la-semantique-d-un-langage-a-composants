@@ -1,12 +1,11 @@
   \subsection{Évolution du noyau sémantique existant et formalisation des nouveaux mécanismes}
   
-  La première étape de la formalisation de la sémantique du langage Compo, consiste en la définition des règles d'inférence. Partant d'une base de règles déjà définie par D.Delahaye, nous devrons continuer la définition des règles d'inférence pour prendre en compte l'ensemble des mécanismes de Compo, qui ce réaliserons sur papier au cours de cette première étape. Cette définition portera cependant sur un noyau de Compo non réflexif, qui sera intégré dans de futurs travaux. \\\par
+  La première étape de la formalisation de la sémantique du langage Compo, consiste en la définition des règles d'inférence. Partant d'une base de règles déjà définie par D.Delahaye, nous devrons continuer la définition des règles d'inférence pour prendre en compte l'ensemble des mécanismes de Compo, qui se réaliseront sur papier au cours de cette première étape. Cette définition portera cependant sur un noyau de Compo non réflexif, qui sera intégré dans de futurs travaux. \\\par
   
   Nous avons vu précédemment que la réflexion autour de la problématique du passage en argument d'un composant nous suggère différentes pistes. Ainsi la formalisation des différents modes de passage nous apportera un regard neuf dans le choix du mode et de pouvoir comparer les modes entre eux en définissant formellement leur comportement.
     
   \subsection{Mécanisation en Coq et génération d’un interprète certifié}
   
-  La deuxième étape se réalisera avec l'outil Coq, qui mécanisera les règles d'inférence au moyen de type inductif. Le choix de Coq comme outil pour la mécanisation se justifie par le fait qu'il est particulièrement efficace pour formaliser une sémantique opérationnelle exprimé sous la forme de règles d'inférence. De plus au cours de ma formation j'ai eu location de l'utiliser afin de mécaniser la sémantique d'un mini-langage fonctionnel.
+  La deuxième étape sera effectuée avec l'outil Coq, qui mécanisera les règles d'inférence au moyen de types inductifs. Le choix de Coq comme outil pour la mécanisation se justifie par le fait qu'il est particulièrement efficace pour formaliser une sémantique opérationnelle exprimé sous la forme de règles d'inférence. De plus au cours de ma formation j'ai eu location de l'utiliser afin de mécaniser la sémantique d'un mini-langage fonctionnel.
   
   Le but ultime à atteindre serait l'extraction d'un interprète certifié, qui peut se réaliser à l'aide d'un plugin développé par D.Delahaye et un doctorant \cite{Rel-Exec3}.
-  .

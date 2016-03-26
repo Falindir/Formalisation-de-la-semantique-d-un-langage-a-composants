@@ -1,48 +1,62 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{BCL{\etalchar{+}}06}
+\begin{thebibliography}{ADDT15}
 
-\bibitem[AAA06]{abi2006javad}
-Marwan Abi-Antoun and Jonathan Aldrich.
-\newblock Javad: Bringing ownership domains to mainstream java.
-\newblock 2006.
+\bibitem[AA06]{DBLP:conf/oopsla/Abi-AntounA06}
+Marwan Abi{-}Antoun and Jonathan Aldrich.
+\newblock Bringing ownership domains to mainstream java.
+\newblock In {\em Companion to the 21th Annual {ACM} {SIGPLAN} Conference on
+  Object-Oriented Programming, Systems, Languages, and Applications, {OOPSLA}
+  2006, October 22-26, 2006, Portland, Oregon, {USA}}, pages 702--703, 2006.
 
 \bibitem[AC96]{Abadi:1996:TO:547964}
 Martin Abadi and Luca Cardelli.
 \newblock {\em A Theory of Objects}.
 \newblock Springer-Verlag New York, Inc., Secaucus, NJ, USA, 1st edition, 1996.
 
-\bibitem[ACN02]{aldrich2002archjava}
+\bibitem[ACN02]{DBLP:conf/icse/AldrichCN02}
 Jonathan Aldrich, Craig Chambers, and David Notkin.
 \newblock Archjava: connecting software architecture to implementation.
-\newblock In {\em Software Engineering, 2002. ICSE 2002. Proceedings of the
-  24rd International Conference on}, pages 187--197. IEEE, 2002.
+\newblock In {\em Proceedings of the 24th International Conference on Software
+  Engineering, {ICSE} 2002, 19-25 May 2002, Orlando, Florida, {USA}}, pages
+  187--197, 2002.
 
-\bibitem[ADDT]{arnaudhandles}
-Jean-Baptiste Arnaud, St{\'e}phane Ducasse, Marcus Denker, and Camille Teruel.
+\bibitem[ADDT15]{DBLP:journals/scp/ArnaudDDT15}
+Jean{-}Baptiste Arnaud, St{\'{e}}phane Ducasse, Marcus Denker, and Camille
+  Teruel.
 \newblock Handles: Behavior-propagating first class references for
   dynamically-typed languages.
+\newblock {\em Sci. Comput. Program.}, 98:318--338, 2015.
 
-\bibitem[ASCN03]{aldrich2003language}
+\bibitem[AGH00]{DBLP:books/aw/ArnoldGH00}
+Ken Arnold, James Gosling, and David Holmes.
+\newblock {\em The Java Programming Language, Third Edition}.
+\newblock Addison-Wesley, 2000.
+
+\bibitem[ASCN03]{DBLP:conf/ecoop/AldrichSCN03}
 Jonathan Aldrich, Vibha Sazawal, Craig Chambers, and David Notkin.
 \newblock Language support for connector abstractions.
-\newblock In {\em ECOOP 2003--Object-Oriented Programming}, pages 74--102.
-  Springer, 2003.
+\newblock In {\em {ECOOP} 2003 - Object-Oriented Programming, 17th European
+  Conference, Darmstadt, Germany, July 21-25, 2003, Proceedings}, pages
+  74--102, 2003.
 
-\bibitem[BCL{\etalchar{+}}06]{bruneton2006fractal}
-Eric Bruneton, Thierry Coupaye, Matthieu Leclercq, Vivien Qu{\'e}ma, and
-  Jean-Bernard Stefani.
-\newblock The fractal component model and its support in java.
-\newblock {\em Software: Practice and Experience}, 36(11-12):1257--1284, 2006.
+\bibitem[BCL{\etalchar{+}}06]{DBLP:journals/spe/BrunetonCLQS06}
+Eric Bruneton, Thierry Coupaye, Matthieu Leclercq, Vivien Qu{\'{e}}ma, and
+  Jean{-}Bernard Stefani.
+\newblock The {FRACTAL} component model and its support in java.
+\newblock {\em Softw., Pract. Exper.}, 36(11-12):1257--1284, 2006.
 
 \bibitem[Boe76]{Boehm:1976:SE:1311958.1312684}
 B.~W. Boehm.
 \newblock Software engineering.
 \newblock {\em IEEE Trans. Comput.}, 25(12):1226--1241, December 1976.
 
-\bibitem[CPN98]{clarke1998ownership}
-David~G Clarke, John~M Potter, and James Noble.
+\bibitem[CPN98]{DBLP:conf/oopsla/ClarkePN98}
+David~G. Clarke, John Potter, and James Noble.
 \newblock Ownership types for flexible alias protection.
-\newblock In {\em ACM SIGPLAN Notices}, volume~33, pages 48--64. ACM, 1998.
+\newblock In {\em Proceedings of the 1998 {ACM} {SIGPLAN} Conference on
+  Object-Oriented Programming Systems, Languages {\&} Applications {(OOPSLA}
+  '98), Vancouver, British Columbia, Canada, October 18-22, 1998.}, pages
+  48--64, 1998.
 
 \bibitem[Don89]{dony1989langages}
 Christophe Dony.
@@ -57,16 +71,10 @@ Luc Fabresse.
 \newblock PhD thesis, Universit{\'e} Montpellier II-Sciences et Techniques du
   Languedoc, 2007.
 
-\bibitem[GJSB05]{Gosling:2005:JLS:1036643}
-James Gosling, Bill Joy, Guy Steele, and Gilad Bracha.
-\newblock {\em Java(TM) Language Specification, The (3rd Edition) (Java
-  (Addison-Wesley))}.
-\newblock Addison-Wesley Professional, 2005.
-
-\bibitem[Hor84]{Horowitz:1984:FPL:27635}
+\bibitem[Hor84]{DBLP:books/daglib/0069787}
 Ellis Horowitz.
-\newblock {\em Fundamentals of Programming Languages (2Nd Ed.)}.
-\newblock Computer Science Press, Inc., New York, NY, USA, 1984.
+\newblock {\em Fundamentals of programming languages {(2.} ed.)}.
+\newblock Computer software engineering series. Computer Science Press, 1984.
 
 \bibitem[ICG{\etalchar{+}}04]{IversDocumentingComponent2004}
 James Ivers, Paul Clements, David Garlan, Robert Nord, Bradley Schmerl, and
@@ -75,14 +83,10 @@ James Ivers, Paul Clements, David Garlan, Robert Nord, Bradley Schmerl, and
 \newblock Technical Report CMU/SEI-2004-TR-008, Software Engineering Institute,
   Carnegie Mellon University, Pittsburgh, PA, 2004.
 
-\bibitem[Kra86]{krakowiak:1986}
-S~Krakowiak.
-\newblock Enseignement du génie logiciel : expériences et perspectives.
-\newblock pages 15--31, May 1986.
-
-\bibitem[Kru]{kruchten1998modeling}
+\bibitem[Kru98]{kruchten1998modeling}
 Philippe Kruchten.
 \newblock Modeling component systems with the unified modeling language.
+\newblock Int. Workshop on Component-Based Software Eng., 1998.
 
 \bibitem[McI68]{Il68}
 M.~D. McIlroy.
@@ -94,17 +98,19 @@ M.~D. McIlroy.
 Jean-Louis Nebut.
 \newblock {\em Ada pour l'écriture de composants logiciels : projet de norme
   Ada 9X}.
-\newblock Collection Informatique. Ed. Technip, 1994 (05-Gap, Paris.
+\newblock Collection Informatique. Ed. Technip, 1994 (05-Gap), Paris.
 
-\bibitem[PC98]{pryce1998component}
+\bibitem[PC98]{DBLP:conf/cds/PryceC98}
 Nat Pryce and Steve Crane.
 \newblock Component interaction in distributed systems.
-\newblock In {\em Configurable Distributed Systems, 1998. Proceedings. Fourth
-  International Conference on}, pages 71--78. IEEE, 1998.
+\newblock In {\em Fourth International Conference on Configurable Distributed
+  Systems, 1998, Proceedings, Annapolis, MA, USA, 6 May, 1998}, pages 71--78,
+  1998.
 
 \bibitem[PQB01]{peschanski2001typeful}
 Frédéric Peschanski, Christian Queinnec, and Jean-Pierre Briot.
-\newblock A typeful composition model for dynamic software architectures, 2001.
+\newblock A typeful composition model for dynamic software architectures,
+  Technical Report , Univ. of Paris VI, 2001.
 
 \bibitem[SDT14]{Spacek:2014:CMA:2602458.2602476}
 Petr Spacek, Christophe Dony, and Chouki Tibermacine.
@@ -118,7 +124,7 @@ Petr Spacek, Christophe Dony, and Chouki Tibermacine.
 \bibitem[Sit72]{sites1972algol}
 Richard~L Sites.
 \newblock Algol w reference manual.
-\newblock 1972.
+\newblock Stanford University, 1972.
 
 \bibitem[Spea]{specificationuml}
 OMG~Adopted Specification.
@@ -127,6 +133,12 @@ OMG~Adopted Specification.
 \bibitem[Speb]{specificationejb}
 Sun~Microsystems Specification.
 \newblock Ejb 3.1 core contracts and requirements.
+
+\bibitem[SSP08]{seco2008component}
+Jo{\~a}o~Costa Seco, Ricardo Silva, and Margarida Piriquito.
+\newblock Componentj: A component-based programming language with dynamic
+  reconfiguration.
+\newblock {\em Computer Science and Information Systems}, 5(2):63--86, 2008.
 
 \bibitem[Str00]{Stroustrup:2000:CPL:518791}
 Bjarne Stroustrup.
@@ -137,7 +149,7 @@ Bjarne Stroustrup.
 \bibitem[Szy99]{szyperski1999components}
 Clemens Szyperski.
 \newblock Components vs. objects vs. component objects.
-\newblock In {\em Proceedings of OOP}, volume 1999, 1999.
+\newblock In {\em Proceedings of OOP}, 1999.
 
 \bibitem[Szy02]{Szyperski:2002:CSB:515228}
 Clemens Szyperski.
