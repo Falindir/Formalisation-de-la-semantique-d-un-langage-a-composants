@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.10)  25 MAR 2016 20:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.10)  30 MAR 2016 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1649,14 +1649,14 @@ Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 File: images/archiCompo.png Graphic file (type png)
 
 <use images/archiCompo.png>
-Package pdftex.def Info: images/archiCompo.png used on input line 22.
+Package pdftex.def Info: images/archiCompo.png used on input line 16.
 (pdftex.def)             Requested size: 820.06175pt x 492.84003pt.
 
 
 Class memoir Warning: The material used in the headers is too large
 (29.90372pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 36.
+(in both cases you will find help in the memoir manual). on input line 30.
 
 
 Overfull \vbox (16.30371pt too high) has occurred while \output is active []
@@ -1667,7 +1667,7 @@ Overfull \vbox (0.85185pt too high) has occurred while \output is active []
 
 
 [18 <./images/archiCompo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
@@ -1729,7 +1729,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 81541D335E6264E925C5C72DBD8DDF31;3339.
+(rerunfilecheck)             Checksum: 1A25B00A1AC29ADDF482236FD409C362;3340.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  )
 (\end occurred inside a group at level 1)
@@ -1740,7 +1740,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
 Here is how much of TeX's memory you used:
  19513 strings out of 493304
  311793 string characters out of 6139871
- 490865 words of memory out of 5000000
+ 491040 words of memory out of 5000000
  22429 multiletter control sequences out of 15000+600000
  86831 words of font info for 63 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1813,7 +1813,7 @@ fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12
 /type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmtt10.pfb>
-Output written on rapport.pdf (35 pages, 591183 bytes).
+Output written on rapport.pdf (35 pages, 591454 bytes).
 PDF statistics:
  679 PDF objects out of 1000 (max. 8388607)
  610 compressed objects within 7 object streams

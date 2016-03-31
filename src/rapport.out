@@ -3,14 +3,14 @@
 \BOOKMARK [0][-]{chapter.2}{\311tat de l'art}{}% 3
 \BOOKMARK [1][-]{section.2.1}{Le d\351veloppement de logiciels \340 base de composants}{chapter.2}% 4
 \BOOKMARK [2][-]{subsection.2.1.1}{Pr\351sentation de l'approche \340 composants}{section.2.1}% 5
-\BOOKMARK [2][-]{subsection.2.1.2}{Les principes de d\351veloppement par composants}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.2}{Les principes du d\351veloppement par composants}{section.2.1}% 6
 \BOOKMARK [2][-]{subsection.2.1.3}{Les grandes familles du d\351veloppement \340 base de composants}{section.2.1}% 7
 \BOOKMARK [1][-]{section.2.2}{Les diff\351rents m\351canismes du passage d'arguments en programmation}{chapter.2}% 8
 \BOOKMARK [2][-]{subsection.2.2.1}{Passage par valeur}{section.2.2}% 9
 \BOOKMARK [2][-]{subsection.2.2.2}{Passage par r\351f\351rence}{section.2.2}% 10
 \BOOKMARK [2][-]{subsection.2.2.3}{Passage par valeur-r\351sultat}{section.2.2}% 11
 \BOOKMARK [2][-]{subsection.2.2.4}{Passage par nom}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.5}{ADA et ses trois nouveaux mode de passage}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.5}{ADA et ses trois nouveaux modes de passage}{section.2.2}% 13
 \BOOKMARK [1][-]{section.2.3}{La s\351mantique formelle des langages de programmation}{chapter.2}% 14
 \BOOKMARK [2][-]{subsection.2.3.1}{Pr\351sentation}{section.2.3}% 15
 \BOOKMARK [2][-]{subsection.2.3.2}{Les grandes approches de la s\351mantique formelle}{section.2.3}% 16
@@ -21,11 +21,11 @@
 \BOOKMARK [2][-]{subsection.3.1.1}{Compo \205 un langage tout composant}{section.3.1}% 21
 \BOOKMARK [2][-]{subsection.3.1.2}{Compo \205 une architecture \340 composants d'un compteur}{section.3.1}% 22
 \BOOKMARK [1][-]{section.3.2}{La probl\350matique du passage des arguments dans les mod\350les \340 composants}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.2.1}{La signification du passage en argument d'un composant}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.1}{La signification du passage d'un composant en argument}{section.3.2}% 24
 \BOOKMARK [2][-]{subsection.3.2.2}{Les premi\350res pistes du passage d'arguments}{section.3.2}% 25
 \BOOKMARK [2][-]{subsection.3.2.3}{Comparaison avec les passages d'arguments classiques}{section.3.2}% 26
 \BOOKMARK [2][-]{subsection.3.2.4}{Les potentialit\351s d\351coulant du passage par requis comme support au passage d'arguments}{section.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.2.5}{De nouvelles pistes ouvertes par les r\351sultats de r\351centes recherches}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.5}{De nouvelles pistes ouvertes par les r\351sultats de recherches r\351centes}{section.3.2}% 28
 \BOOKMARK [2][-]{subsection.3.2.6}{La signification du retour d'un composant \340 une invocation de service}{section.3.2}% 29
 \BOOKMARK [1][-]{section.3.3}{Formaliser la s\351mantique de Compo}{chapter.3}% 30
 \BOOKMARK [2][-]{subsection.3.3.1}{\311volution du noyau s\351mantique existant et formalisation des nouveaux m\351canismes}{section.3.3}% 31

@@ -11,7 +11,7 @@ Le terme «~composant~», défini dans l'approche de l'ingénierie du logiciel b
 \end{quote}
   
 \begin{quote}
-  \emph{ A component is a unit of distributed program structure that encapsulates its implementation behind a strict interface comprised of services provided by the component to other components in the system and services required by the component and implemented elsewhere. The explicit declaration of a component's requirements increases reuse by decoupling components from their operating environment.} \cite{pryce1998component}
+  \emph{ A component is a unit of distributed program structure that encapsulates its implementation behind a strict interface comprised of services provided by the component to other components in the system and services required by the component and implemented elsewhere. The explicit declaration of a component's requirements increases reuse by decoupling components from their operating environment.} \cite{DBLP:conf/cds/PryceC98}
 \end{quote}
   
 Ces différentes définitions permettent de faire ressortir des notions qui se retrouvent dans la plupart des approches à composants : 
@@ -85,7 +85,7 @@ Un composant UML est donc une entité autonome, qui communique avec les autres c
         
         \end{enumerate}
         
-        Afin de pouvoir connecter dehttps://spring.io/ux composants entre eux, il faut connecter une interface de l'un avec une interface de l'autre. Cette connexion est appelée liaison (\emph{binding}) et peut être de trois types : une liaison normale (\emph{normal binding}) entre une interface serveur externe d'un composant et une interface cliente externe d'un autre composant, une liaison d'export (\emph{export binding}) entre une interface cliente d'un composite et une interface serveur d'un composant interne, permettant donc la délégation d'un service fourni par notre composant composite qui sera fourni par son composant interne, et une liaison d'import (\emph{import binding}) entre une interface serveur interne d'un composant composite et une interface cliente externe d'un composant interne permettant la délégation d'un besoin de notre composant interne au composant composite.
+        Afin de pouvoir connecter des composants entre eux, il faut connecter une interface de l'un avec une interface de l'autre. Cette connexion est appelée liaison (\emph{binding}) et peut être de trois types : une liaison normale (\emph{normal binding}) entre une interface serveur externe d'un composant et une interface cliente externe d'un autre composant, une liaison d'export (\emph{export binding}) entre une interface cliente d'un composite et une interface serveur d'un composant interne, permettant donc la délégation d'un service fourni par notre composant composite qui sera fourni par son composant interne, et une liaison d'import (\emph{import binding}) entre une interface serveur interne d'un composant composite et une interface cliente externe d'un composant interne permettant la délégation d'un besoin de notre composant interne au composant composite.
         
         Étant un modèle abstrait, il permet de s'abstraire de tous langages et de plateformes pour la gestion de composants. Différentes implémentations ont été réalisées (par exemple en Java avec Julia ou en C++ avec Cecilia). En effet l'ADL qu’intègre Fractal est décrit dans une syntaxe XML et spécifié de manière indépendante des langages de programmation. Les différentes implémentations proposent cependant un mécanisme de génération de code à partir de l'ADL pour réaliser l'implémentation des composants. \\\par
 

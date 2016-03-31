@@ -1,11 +1,11 @@
 
       \label{sec:arguments}
             
-   Dans la majorité des langages de programmation, l'appel à un sous-programme (procé\-dure, fonction, méthodes, etc.) peut prendre des paramètres (arguments). On ne s'inté\-resse ici pas en détail sur le fonctionnement de cet appel, mais on se concentrera sur comment un paramètre effectif est transmis au sous-programme et comment son utilisation dans le corps du sous-programme peut dans certains cas impacter l'environnement. Il existe un grand nombre de mécanismes de passage d'argument mais nous allons voir les plus connus et les plus utilisés, présentés dans \cite{DBLP:books/daglib/0069787}.
+   Dans la majorité des langages de programmation, l'appel à un sous-programme (procé\-dure, fonction, méthode, etc.) peut prendre des paramètres (arguments). On ne s'inté\-resse pas ici au détail du fonctionnement de cet appel, mais on se concentre sur comment un paramètre effectif est transmis au sous-programme et comment son utilisation dans le corps du sous-programme peut dans certains cas impacter l'environnement. Il existe un grand nombre de mécanismes de passage d'argument mais nous allons voir les plus connus et les plus utilisés, présentés dans \cite{DBLP:books/daglib/0069787}.
   
     \subsection{Passage par valeur}
       
-      Sûrement le mécanisme de passage d'arguments le plus connu et utilisé est le passage d'argument  << par valeur >>. Les modifications sont apportées aux paramètres formels et n'ont aucun impact sur l'environnement extérieur et ne modifient en aucun cas l'état du paramètre effectif. Dans ce mode de passage, le paramètre effectif est déréférencé donnant une \emph{r-value} \footnote{contenant une variable ou le résultat d'une expression} qui est copiée dans une nouvelle zone mémoire, liée à notre paramètre formel. Cependant cette copie consomme de l'espace mémoire et du temps de calcul pour la copie. Un grand nombre de langage utilise ce mécanisme, comme un mécanisme par défaut, notamment C, C++ \cite{Stroustrup:2000:CPL:518791}, ou encore Java.
+      Sûrement le mécanisme de passage d'arguments le plus connu et utilisé est le passage d'argument  << par valeur >>. Les modifications sont apportées aux paramètres formels et n'ont aucun impact sur l'environnement extérieur. Elle ne modifient en aucun cas l'état du paramètre effectif. Dans ce mode de passage, le paramètre effectif est déréférencé donnant une \emph{r-value} \footnote{contenant une variable ou le résultat d'une expression} qui est copiée dans une nouvelle zone mémoire, liée à notre paramètre formel. Cependant cette copie consomme de l'espace mémoire et du temps de calcul pour la copie. Un grand nombre de langage utilise ce mécanisme, comme mécanisme par défaut, notamment C, C++ \cite{Stroustrup:2000:CPL:518791}, ou encore Java.
 
     \subsection{Passage par référence}
     
@@ -19,9 +19,9 @@
     
     \subsection{Passage par nom}
     
-  Dans ce mécanisme de passage de paramètres, c'est une substitution textuelle qui est effectuée par le paramètre d'effectif dans le corps de la fonction à chaque fois que le paramètre formel apparaît. Ce comportement est introduit comme comportement par défaut en ALGOL-60. Il réalise un effet semblable au passage par référence, dans le sens où aucune copie n'est réalisée et son champ d'action impacte aussi l’environnement extérieur. Il est aussi comparable aussi au macro en C.
+  Dans ce mécanisme de passage de paramètres, c'est une substitution textuelle qui est effectuée par le paramètre d'effectif dans le corps de la fonction à chaque fois que le paramètre formel apparaît. Ce comportement est introduit comme comportement par défaut en ALGOL-60. Il réalise un effet semblable au passage par référence, dans le sens où aucune copie n'est réalisée et son champ d'action impacte aussi l’environnement extérieur. Il est aussi comparable aux macros en C.
     
-    \subsection{ADA et ses trois nouveaux mode de passage}
+    \subsection{ADA et ses trois nouveaux modes de passage}
    
    Le passage de paramètres en ADA est un peu particulier. En effet, comme mentionné par J-L. Nebut \cite{opac-b1077467}, le programmeur ne peut pas choisir entre un passage par valeur ou référence (les deux mécanismes présents dans ADA), mais a la possibilité de choisir un << mode >> de passage. Le mode permet au développeur de définir chaque argument comme étant en entrée (IN), sortie (OUT) ou entrée/sortie (IN OUT).
 

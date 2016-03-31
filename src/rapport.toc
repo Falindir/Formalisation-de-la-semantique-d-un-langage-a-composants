@@ -6,7 +6,7 @@
 \contentsline {chapter}{\chapternumberline {2}\IeC {\'E}tat de l'art}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Le d\IeC {\'e}veloppement de logiciels \IeC {\`a} base de composants}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Pr\IeC {\'e}sentation de l'approche \IeC {\`a} composants}{3}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Les principes de d\IeC {\'e}veloppement par composants}{4}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Les principes du d\IeC {\'e}veloppement par composants}{4}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Les grandes familles du d\IeC {\'e}veloppement \IeC {\`a} base de composants}{5}{subsection.2.1.3}
 \contentsline {subsubsection}{\numberline {2.1.3.1}Les approches des g\IeC {\'e}n\IeC {\'e}ratives}{5}{subsubsection.2.1.3.1}
 \contentsline {subsubsection}{\numberline {2.1.3.2}La famille des frameworks}{7}{subsubsection.2.1.3.2}
@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.2.2}Passage par r\IeC {\'e}f\IeC {\'e}rence}{11}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Passage par valeur-r\IeC {\'e}sultat}{12}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Passage par nom}{12}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}ADA et ses trois nouveaux mode de passage}{12}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.5}ADA et ses trois nouveaux modes de passage}{12}{subsection.2.2.5}
 \contentsline {section}{\numberline {2.3}La s\IeC {\'e}mantique formelle des langages de programmation}{12}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Pr\IeC {\'e}sentation}{12}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Les grandes approches de la s\IeC {\'e}mantique formelle}{13}{subsection.2.3.2}
@@ -32,7 +32,7 @@
 \contentsline {subsubsection}{\numberline {3.1.1.5}Des composants composites}{16}{subsubsection.3.1.1.5}
 \contentsline {subsection}{\numberline {3.1.2}Compo -- une architecture \IeC {\`a} composants d'un compteur}{16}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}La probl\IeC {\`e}matique du passage des arguments dans les mod\IeC {\`e}les \IeC {\`a} composants}{17}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}La signification du passage en argument d'un composant}{17}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}La signification du passage d'un composant en argument}{17}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Les premi\IeC {\`e}res pistes du passage d'arguments}{17}{subsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.2.1}Le passage par fourni}{17}{subsubsection.3.2.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2.2}Le passage par requis}{17}{subsubsection.3.2.2.2}
@@ -40,7 +40,7 @@
 \contentsline {subsection}{\numberline {3.2.4}Les potentialit\IeC {\'e}s d\IeC {\'e}coulant du passage par requis comme support au passage d'arguments}{19}{subsection.3.2.4}
 \contentsline {subsubsection}{\numberline {3.2.4.1}Un passage en lecture seule}{19}{subsubsection.3.2.4.1}
 \contentsline {subsubsection}{\numberline {3.2.4.2}Un passage r\IeC {\'e}vocable}{19}{subsubsection.3.2.4.2}
-\contentsline {subsection}{\numberline {3.2.5}De nouvelles pistes ouvertes par les r\IeC {\'e}sultats de r\IeC {\'e}centes recherches}{19}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.5}De nouvelles pistes ouvertes par les r\IeC {\'e}sultats de recherches r\IeC {\'e}centes}{19}{subsection.3.2.5}
 \contentsline {subsubsection}{\numberline {3.2.5.1}Les r\IeC {\'e}f\IeC {\'e}rences comme entit\IeC {\'e} de premi\IeC {\`e}re classe}{19}{subsubsection.3.2.5.1}
 \contentsline {subsubsection}{\numberline {3.2.5.2}La r\IeC {\'e}ification des connecteurs}{20}{subsubsection.3.2.5.2}
 \contentsline {subsection}{\numberline {3.2.6}La signification du retour d'un composant \IeC {\`a} une invocation de service}{20}{subsection.3.2.6}

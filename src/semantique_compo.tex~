@@ -6,6 +6,6 @@
     
   \subsection{Mécanisation en Coq et génération d’un interprète certifié}
   
-  La deuxième étape sera effectuée avec l'outil Coq, qui mécanisera les règles d'inférence au moyen de types inductifs. Le choix de Coq comme outil pour la mécanisation se justifie par le fait qu'il est particulièrement efficace pour formaliser une sémantique opérationnelle exprimée sous la forme de règles d'inférence. De plus au cours de ma formation j'ai eu l'occasion de l'utiliser afin de mécaniser la sémantique d'un mini-langage fonctionnel.
+  La deuxième étape sera effectuée avec l'outil Coq, qui mécanisera les règles d'inférence au moyen de types inductifs. Le choix de Coq comme outil pour la mécanisation se justifie par le fait qu'il est particulièrement efficace pour formaliser une sémantique opérationnelle exprimé sous la forme de règles d'inférence. De plus au cours de ma formation j'ai eu location de l'utiliser afin de mécaniser la sémantique d'un mini-langage fonctionnel.
   
   Le but ultime à atteindre serait l'extraction d'un interprète certifié, qui peut se réaliser à l'aide d'un plugin développé par D.Delahaye et un doctorant \cite{Rel-Exec3}.

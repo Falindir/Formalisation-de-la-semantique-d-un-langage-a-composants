@@ -1,14 +1,14 @@
   
   \label{sec:argumentscomposants}
   
-  \subsection{La signification du passage en argument d'un composant}
+  \subsection{La signification du passage d'un composant en argument}
   
   Les composants peuvent avoir le besoin de s'échanger des données. Dans les autres approches et notamment les autres LOC ces données sont des objets, il est donc normal de se demander comment un composant passe à un autre composant une donnée, sachant que cette donnée est aussi un composant. Le composant A qui voudrait passer en argument un composant C à un service du composant B qu'il invoque, permettrait une connexion entre le composant C et le composant B (représenté dans figure \ref{fig:archiCompo}). Le mécanisme de cette connexion étant décrit par \cite{Spacek:2014:CMA:2602458.2602476} : 
   
   \begin{quote}
       \emph{\textbf{Choice 17 : }Arguments passing is made by the automatic establishment and removal of connections.
 Any component has a required collection port named args . During a service invocation, the argu-
-ments, i.e. ports, {a1, a2, ..., an} are each respectively connected to {args[1], args[2], ..., args[n]}. The
+ments, i.e. ports, {a1, a2, ..., an} are each respectively connected ownershipto {args[1], args[2], ..., args[n]}. The
 identifiers of the parameters are actually alias identifiers of ports args . At the end of the execution of
 the service, all connections to args ports are removed. In the case when a service invocation is dele-
 gated, because the receiving port is delegated, the appropriate delegation connection for the args port
@@ -41,10 +41,10 @@ is also automatically established and removed}
   On peut faire un premier parallèle du passage par fourni, qui semble permettre un mécanisme similaire au passage de référence de Java. En effet les modifications de l'état du composant C dans le service de B auront un impact sur le composant C. De plus si A modifie sa connexion vers C vers un autre composant et que B a conservé sa connexion vers C alors comme en Java B n'aura pas une référence vers D mais toujours vers C.
   
   Le passage par requis ne peut pas se réaliser en Java, mais on peut avoir un comportement qui s'en rapproche en C++ par un référencement vers un pointeur. Si un objet A passe par référence un pointeur $c$ à une méthode $foo$ de B, et que B conserve cette référence dans un pointeur $var$, alors $var$ aura comme référence l'adresse du pointeur $c$. Ainsi si A modifie la référence du pointeur $c$, alors B aura bien une référence vers un pointeur qui fera référence à ce nouvel objet.
-  
+  ownership
   \subsection{Les potentialités découlant du passage par requis comme support au passage d'arguments}
 
-    Le passage par requis permet déjà des potentialités sur cette connexion pour le passage en arguments, et qui demanderait peut de modifications afin d'être implémenté.  
+    Le passage par requis permet déjà des potentialités sur cette connexion pour le passage en arguments, et qui demanderait peut de modifications afin d'être implémenté.  ownership
   
       \subsubsection{Un passage en lecture seule}
     
@@ -54,20 +54,20 @@ is also automatically established and removed}
     
     Nous avons vu que le passage par requis permettait au composant A d'exercer un contrôle sur la connexion de B vers C. On peut donc imaginer là aussi une nouvelle propriété ou un nouveau type de port permettant de <<couper>> la connexion entre B et C mais aussi de pouvoir la rétablir selon le besoin. La difficulté de la propagation d'un passage révocable par le passage par requis est minime, si B passe en argument C au composant E, alors supprimer la délégation entre le port de A et le port B, supprimera la délégation implicite de E vers C. \\\par
     
-  \subsection{De nouvelles pistes ouvertes par les résultats de récentes recherches}
+  \subsection{De nouvelles pistes ouvertes par les résultats de recherches récentes}
   
     \subsubsection{Les références comme entité de première classe}
     
     Faire des références une entité de première classe permet d'exercer un contrôle sur les références des objets, permettant de construire des systèmes objets avec une plus grande sécurité. En apportant des comportements comme des références en lecture seule, révocables. On pourra notamment regarder les travaux portant sur les langages à typage statique \cite{DBLP:conf/oopsla/ClarkePN98} ou encore les travaux de \cite{DBLP:journals/scp/ArnaudDDT15} portant sur les langages à typage dynamique. 
     
-    Cependant on pourra discuter de la propagation du contrôle des références, en regardant un exemple inspiré de \cite{DBLP:journals/scp/ArnaudDDT15}. UDBLP:books/aw/ArnoldGH00n objet A passe une référence révocable vers un objet C à un objet B. Cependant B a aussi une autre référence indirecte vers C en passant par D. Alors si A révoque la référence révocable vers C, cela a-t-il un impact sur la référence indirecte vers B ?
+    Cependant on pourra discuter de la propagation du contrôle des références, en regardant un exemple inspiré de \cite{DBLP:journals/scp/ArnaudDDT15}. Un objet A passe une référence révocable vers un objet C à un objet B. Cependant B a aussi une autre référence indirecte vers C en passant par D. Alors si A révoque la référence révocable vers C, cela a-t-il un impact sur la référence indirecte vers B ?
     
-    On pourra aussi regrouper les travaux de \cite{DBLP:conf/oopsla/Abi-AntounA06}, qui essaye de lutter contre l'aliasing, en contrôlant les échanges de références, en regroupant les objets dans des domaines et en explicitant les lien entre eux. Mettant aussi en place des mots clés, comme \textbf{unique} (ne peut être pointé que par une seule référence), \textbf{owned} (ne peut être accessible que par des objets du même domaine), \textbf{shared} (partagé entre les domaines), permettant de gérer les droits d'accès des objetDBLP:books/aw/ArnoldGH00s.
+    On pourra aussi regrouper les travaux de \cite{DBLP:conf/oopsla/Abi-AntounA06}, qui essaye de lutter contre l'aliasing, en contrôlant les échanges de références, en regroupant les objets dans des domaines et en explicitant les lien entre eux. Mettant aussi en place des mots clés, comme \textbf{unique} (ne peut être pointé que par une seule référence), \textbf{owned} (ne peut être accessible que par des objets du même domaine), \textbf{shared} (partagé entre les domaines), permettant de gérer les droits d'accès des objets.
     
-    On remarque cependant que ces différents mécanismeDBLP:books/aw/ArnoldGH00s se retrouvent conceptuellement dans les ports de Compo, et pourraient être implémentés sans demander un grand effort de conception, par l'ajout de nouveaux types de ports par exemple.
+    On remarque cependant que ces différents mécanismes se retrouvent conceptuellement dans les ports de Compo, et pourraient être implémentés sans demander un grand effort de conception, par l'ajout de nouveaux types de ports par exemple.
     
     \subsubsection{La réification des connecteurs}
-       DBLP:books/aw/ArnoldGH00
+ 
     Un connecteur permet de représenter la sémantique d'une connexion entre deux ou plusieurs instances. Cependant les langages à objets ne permettent pas de fournir une représentation explicite des connexions entre instances, car étant implicitement comprises dans leurs références. Dans le monde composant cette connexion est explicitement décrite et représente une liaison entre deux ou plusieurs éléments connectables (e.g. ports ou interfaces) \cite{IversDocumentingComponent2004}.
     
     \cite{DBLP:conf/ecoop/AldrichSCN03} propose donc d'intégrer les connecteurs au LOC ArchJava, afin de permettre au développer de pouvoir modifier la sémantique d'un connecteur à l’exécution et de modifier le comportement de vérification de type entre les ports. 
